@@ -1,0 +1,43 @@
+#signin {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+.login {
+  height: 400px;
+  width: 450px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+p {
+  margin-left: 20px;
+  font-size: 20px;
+}
+input {
+  margin-left: 20px;
+  height: 20px;
+  width: 300px;
+}
+a {
+  background-color: rgb(53, 53, 248);
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.42s;
+  margin-left: 150px;
+  color: black;
+}
+a:hover {
+  background-color: rgb(248, 130, 90);
+  color: black;
+}
+.para {
+  margin-left: 100px;
+}
