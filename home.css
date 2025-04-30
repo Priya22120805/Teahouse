@@ -1,0 +1,680 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.header {
+  background-color: rgb(116, 252, 116);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header {
+    background-color: rgb(116, 252, 116);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 80vh;
+    width: 100%;
+  }
+}
+#phone {
+  color: green;
+  margin-left: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #phone {
+    color: green;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+}
+#num {
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #num {
+    font-size: 10px;
+  }
+}
+#num:hover {
+  color: green;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #num:hover {
+    color: green;
+  }
+}
+#email {
+  color: red;
+  margin-left: 25%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #email {
+    color: red;
+    margin-left: 13%;
+    font-size: 10px;
+  }
+}
+#mail {
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #mail {
+    font-size: 10px;
+  }
+}
+#mail:hover {
+  color: rgb(61, 61, 247);
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #mail:hover {
+    color: rgb(61, 61, 247);
+  }
+}
+#shop {
+  margin-left: 25%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #shop {
+    margin-left: 13%;
+    font-size: 10px;
+  }
+}
+#time {
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #time {
+    font-size: 10px;
+  }
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+  }
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  margin-top: 20px;
+  list-style-type: none;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10px;
+    list-style-type: none;
+  }
+}
+.navigation a {
+  color: black;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 10px 20px;
+  transition: all 0.42s;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navigation a {
+    color: black;
+    font-size: 8px;
+    text-transform: capitalize;
+    font-weight: 200;
+    padding: 5px 10px;
+    transition: all 0.42s;
+  }
+}
+.navigation a:hover {
+  color: rgb(245, 198, 111);
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navigation a:hover {
+    color: rgb(245, 198, 111);
+  }
+}
+.header-btn {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+  }
+}
+.header-btn a {
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .header-btn a {
+    display: inline-block;
+    color: white;
+    font-weight: 250;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}
+.btn-1 {
+  background-color: rgb(1, 100, 1);
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: all 0.42s;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-1 {
+    background-color: rgb(1, 100, 1);
+    padding: 6px 15px;
+    border-radius: 15px;
+    transition: all 0.42s;
+  }
+}
+.btn-1:hover {
+  background-color: rgb(248, 130, 90);
+  color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-1:hover {
+    background-color: rgb(248, 130, 90);
+    color: black;
+  }
+}
+.btn-2 {
+  background-color: rgb(248, 130, 90);
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: all 0.42s;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-2 {
+    background-color: rgb(248, 130, 90);
+    padding: 6px 15px;
+    border-radius: 15px;
+    transition: all 0.42s;
+  }
+}
+.btn-2:hover {
+  background-color: rgb(1, 100, 1);
+  color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-2:hover {
+    background-color: rgb(1, 100, 1);
+    color: black;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #leaves {
+    height: 50px;
+    width: 50px;
+  }
+}
+/*home page section*/
+.home {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .home {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+  }
+}
+.home-text h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-left: 20%;
+  margin-bottom: var(--p-fonts);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .home-text h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 350;
+    text-transform: capitalize;
+    margin-left: 10%;
+    margin-bottom: var(--p-fonts);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+.home-text p {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-left: 20%;
+  margin-bottom: var(--a-fonts);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .home-text p {
+    color: black;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-left: 10%;
+    margin-bottom: var(--a-fonts);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+.home-text a {
+  background-color: rgb(248, 130, 90);
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-left: 20%;
+  transition: all 0.42s;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .home-text a {
+    background-color: rgb(248, 130, 90);
+    padding: 6px 15px;
+    border-radius: 15px;
+    margin-left: 10%;
+    transition: all 0.42s;
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .home .tea-img {
+    height: 150px;
+    width: 175px;
+  }
+}
+/*------about-----*/
+.abt {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .abt {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 80vh;
+    width: 100%;
+  }
+}
+.abt-title {
+  font-size: 30px;
+  margin-top: 20vh;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .abt-title {
+    font-size: 15px;
+    margin-top: 10vh;
+    text-align: center;
+  }
+}
+.abt-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .abt-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .abt-content .para1 {
+    font-size: 10px;
+  }
+}
+.abt-img {
+  border-radius: 30px;
+  width: 350px;
+  height: 300px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .abt-img {
+    border-radius: 15px;
+    width: 175px;
+    height: 150px;
+  }
+}
+/*-----menu-----*/
+.Mnu {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 80vh;
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .Mnu {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+  }
+}
+.Mnu-title {
+  font-size: 30px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .Mnu-title {
+    font-size: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+.mnu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .mnu-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+.tea-types {
+  max-width: 14rem;
+  border: 2px solid black;
+  background-color: rgb(165, 165, 165);
+  border-radius: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .tea-types {
+    max-width: 8rem;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+}
+.tea-types img {
+  max-width: 100%;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .tea-types img {
+    max-width: 20%;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+  }
+}
+.tea-types h3 {
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .tea-types h3 {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+.tea-types .price {
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .tea-types .price {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
+.btn-5 {
+  background-color: rgb(248, 130, 90);
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin-left: 45%;
+  transition: all 0.42s;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-5 {
+    background-color: rgb(248, 130, 90);
+    padding: 6px 15px;
+    border-radius: 15px;
+    margin-left: 45%;
+    transition: all 0.42s;
+    font-size: 10px;
+  }
+}
+.btn-5:hover {
+  background-color: rgb(1, 100, 1);
+  color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-5:hover {
+    background-color: rgb(1, 100, 1);
+    color: black;
+  }
+}
+/*----contact----*/
+.cnt {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cnt {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 80vh;
+    width: 100%;
+  }
+}
+.cnt-title {
+  font-size: 30px;
+  margin-top: 20vh;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cnt-title {
+    font-size: 15px;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+.map {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .map {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+}
+.cnt-form {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: 1px solid black;
+  background-color: rgb(252, 162, 232);
+  height: 350px;
+  width: 450px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cnt-form {
+    font-size: 10px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: 1px solid black;
+    background-color: rgb(252, 162, 232);
+    height: 250px;
+    width: 235px;
+    border-radius: 10px;
+  }
+}
+.map1 {
+  height: 350 px;
+  width: 450 px;
+  margin-top: 5%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .map1 {
+    height: 200 px;
+    width: 225 px;
+    margin-top: 5%;
+  }
+}
+.cnt-form p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cnt-form p {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}
+.cnt-form input {
+  height: 20px;
+  width: 200px;
+  margin-left: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cnt-form input {
+    height: 10px;
+    width: 80px;
+    margin-left: 10px;
+  }
+}
+.btn-6 {
+  background-color: rgb(248, 130, 90);
+  padding: 12px 30px;
+  border-radius: 30px;
+  transition: all 0.42s;
+  margin-left: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-6 {
+    background-color: rgb(248, 130, 90);
+    padding: 6px 15px;
+    border-radius: 15px;
+    transition: all 0.42s;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+}
+.btn-6:hover {
+  background-color: rgb(1, 100, 1);
+  color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-6:hover {
+    background-color: rgb(1, 100, 1);
+    color: black;
+  }
+}
+.icon {
+  margin-left: 50%;
+  font-size: 30px;
+  top: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .icon {
+    margin-left: 50%;
+    font-size: 10px;
+    top: 20px;
+  }
+}
+.cp {
+  margin-left: 50%;
+  font-size: 20px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cp {
+    margin-left: 50%;
+    font-size: 10px;
+    margin-top: 30px;
+  }
+}
